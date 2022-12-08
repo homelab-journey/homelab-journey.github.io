@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { DarkMode, Gradient, LightMode } from '@/components/Icon'
 
 export function LightbulbIcon({ id, color }) {
