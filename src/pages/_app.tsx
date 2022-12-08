@@ -5,6 +5,7 @@ import { Layout } from '@/components/Layout'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
+import { AppProps } from 'next/app'
 
 function getNodeText(node) {
   let text = ''
@@ -48,7 +49,7 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
   return sections
 }
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   let title = pageProps.markdoc?.frontmatter.title
 
   let pageTitle =

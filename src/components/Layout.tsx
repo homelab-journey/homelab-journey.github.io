@@ -14,56 +14,40 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 const navigation = [
   {
     title: 'Introduction',
+    links: [{ title: 'Getting started', href: '/' }],
+  },
+  {
+    title: 'Core Concepts',
     links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: 'Coming Soon', href: '#' },
+      // { title: 'Achitecture', href: '/docs/concept-architecture' },
+      // { title: 'Security', href: '/docs/concept-security' },
+      // { title: 'Network Considerations', href: '/docs/concept-networking' },
+      // {
+      //   title: 'Hardware Selection',
+      //   href: '/docs/concept-hardware',
+      // },
+      // {
+      //   title: 'Automation',
+      //   href: '/docs/concept-automation',
+      // },
+      // { title: "What's running in my homelab?", href: '/docs/my-apps' },
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Advanced Guides',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
-      {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
-      },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
-      {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
-    ],
-  },
-  {
-    title: 'Advanced guides',
-    links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
-      },
-    ],
-  },
-  {
-    title: 'API reference',
-    links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
+      { title: 'Coming Soon', href: '#' },
+      // { title: 'Harvester', href: '/docs/introduction-to-harvester' },
+      // { title: 'Rancher', href: '/docs/introduction-to-rancher' },
+      // { title: 'Kubernetes', href: '/docs/k3s' },
     ],
   },
   {
     title: 'Contributing',
     links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Architecture guide', href: '/docs/architecture-guide' },
-      { title: 'Design principles', href: '/docs/design-principles' },
+      { title: 'Coming Soon', href: '#' },
+      // { title: 'How to contribute', href: '/docs/how-to-contribute' }
     ],
   },
 ]
@@ -113,7 +97,11 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com" className="group" aria-label="GitHub">
+        <Link
+          href="https://github.com/homelab-journey/"
+          className="group"
+          aria-label="GitHub"
+        >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
