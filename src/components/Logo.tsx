@@ -1,3 +1,4 @@
+// @ts-nocheck
 function LogomarkPaths() {
   return (
     <g fill="none" stroke="#38BDF8" strokeLinejoin="round" strokeWidth={3}>

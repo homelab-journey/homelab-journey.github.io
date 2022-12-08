@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Head, Html, Main, NextScript } from 'next/document'
 
 const themeScript = `

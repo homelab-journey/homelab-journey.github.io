@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useId } from 'react'
 
 export function HeroBackground(props) {
