@@ -49,11 +49,8 @@ export function Hero() {
                 Take this documentation.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button className={''} href="/">
-                  Get started
-                </Button>
+                <Button href="/">Get started</Button>
                 <Button
-                  className={''}
                   href="https://github.com/homelab-journey"
                   variant="secondary"
                 >
