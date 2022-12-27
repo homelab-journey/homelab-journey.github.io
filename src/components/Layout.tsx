@@ -18,6 +18,24 @@ const navigation = [
     links: [{ title: 'Getting started', href: '/' }],
   },
   {
+    title: 'Lab Setup',
+    links: [
+      { title: 'The core network', href: '/docs/lab-network' },
+      // { title: 'Achitecture', href: '/docs/concept-architecture' },
+      // { title: 'Security', href: '/docs/concept-security' },
+      // { title: 'Network Considerations', href: '/docs/concept-networking' },
+      // {
+      //   title: 'Hardware Selection',
+      //   href: '/docs/concept-hardware',
+      // },
+      // {
+      //   title: 'Automation',
+      //   href: '/docs/concept-automation',
+      // },
+      // { title: "What's running in my homelab?", href: '/docs/my-apps' },
+    ],
+  },
+  {
     title: 'Core Concepts',
     links: [
       { title: 'Coming Soon', href: '#' },

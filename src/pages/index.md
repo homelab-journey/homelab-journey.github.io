@@ -4,7 +4,13 @@ pageTitle: Homelab Journey - Just one way to homelab.
 description: Just documenting my way through setting up a homelab to learn, have fun, and make something.
 ---
 
-This is just one way to set up a homelab. I am documenting my way through setting up my homelab. You are welcome to come along for the journey and you are encouraged to deviate the "plan" for whatever works for you! {% .lead %}
+## Disclaimer
+
+Come Learn with me! I will preface this by saying 'The only thing I know for certian is that I know nothing'. {% .lead %}
+
+This documentation exists as a means for me to work through setting up my homelab. You are welcome to come along for the journey, and you are encouraged to deviate the "plan" to whatever works for you! This is just one way to do things. {% .lead %}
+
+I won't get everything right. Some things I might be able to make "work" but its not correct, or its not efficient, or maybe I misunderstand what I think I know. So again let us learn together. If you see somthing I post that isn't ideal, help me to correct it and learn a better way to do. {% .lead %}
 
 {% quick-links %}
 
@@ -17,8 +23,6 @@ This is just one way to set up a homelab. I am documenting my way through settin
 {% quick-link title="My Apps" icon="theming" href="/docs/my-apps" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
 
 {% /quick-links %}
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.
 
 ---
 
@@ -48,7 +52,7 @@ This is what a disclaimer message looks like. You might want to include inline `
 
 ## Homelabbing
 
-Homelabbing is great but there are a couple of things to think about.
+Homelabbing is great and we all have our own "why". Be it to host a few services our selves thus becoming a letting less relient cloud services. Perhaps simply for the fun of it, we've seen the Homelab greats on YouTube doing really cool things. Or perhaps maybe it will be used as a sandbox for us to learn in order to grow in a new skill, or our careers. BUT!!! there are a couple of things to concider.
 
 ### 1. Finacials
 
